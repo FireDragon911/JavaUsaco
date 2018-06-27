@@ -1,5 +1,5 @@
 /*
-ID: your_id_here
+ID: jpl102
 LANG: JAVA
 TASK: test
 */
@@ -17,7 +17,8 @@ class test {
 						  // Get line, break into tokens
     int i1 = Integer.parseInt(st.nextToken());    // first integer
     int i2 = Integer.parseInt(st.nextToken());    // second integer
-    out.println(i1+i2);                           // output result
+    out.println(i1+i2); 
+    //System.out.println(i1+i2);                          // output result
     out.close();                                  // close the output file
   }
 }
